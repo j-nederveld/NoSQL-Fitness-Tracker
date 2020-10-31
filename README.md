@@ -1,6 +1,11 @@
 
   # NoSQL Fitness Tracker
 
+![NoSQL-Fitness-Tracker](https://github.com/j-nederveld/NoSQL-Fitness-Tracker/blob/main/public/img/fitness_tracker.gif)
+
+Deployed App: 
+https://protected-beyond-20307.herokuapp.com/
+
 ## Description 
 
 Fitness tracker displaying NoSQL functionality using mongoose and express routing
