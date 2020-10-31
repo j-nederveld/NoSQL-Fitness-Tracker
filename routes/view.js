@@ -1,3 +1,4 @@
+var path = require('path');
 const router = require('./api.js');
 
 router.get("/exercise", (req, res) => {
@@ -7,3 +8,5 @@ router.get("/exercise", (req, res) => {
   router.get("/stats", (req, res) => {
     res.sendFile(path.join(__dirname, "../public/stats.html"));
   });
+
+  module.exports = router;
